@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-public class FirstExerciseTest {
+public class MathematicalExercisesTest {
 
     @Test
     public void sumTwoNumbers(){
