@@ -12,13 +12,16 @@ public class FirstExerciseTest {
         assertTrue(result == 12);
     }
     public void subTwoNumbers(){
-
+        Integer result = ArithMeticalCalc.sub(4,8);
+        assertTrue(result == 4);
     }
     public void multTwoNumbers(){
-
+        Integer result = ArithMeticalCalc.mult(4,8);
+        assertTrue(result == 32);
     }
     public void divTwoNumbers(){
-
+        Integer result = ArithMeticalCalc.div(4,8);
+        assertTrue(result == 0.5);
     }
     
 }
