@@ -35,4 +35,19 @@ public class ArithmeticalCalc {
         }
         return true;
     }
+
+    public static Double root(double root, double number) {
+
+        for(double i=1; i<=number;i++){
+            double per = 1;
+            for(double j=1;j<=root;j++){
+             per *= i;
+            }
+            if(per == number){
+                return i;
+            }
+            
+        }
+        return Double.NaN;
+    }
 }
