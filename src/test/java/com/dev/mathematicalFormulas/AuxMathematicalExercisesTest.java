@@ -20,7 +20,7 @@ public class AuxMathematicalExercisesTest {
        assertTrue(two);
        assertTrue(three);
        assertFalse(four);
-       assertFalse(five);
+       assertTrue(five);
        assertFalse(twenth);
        assertFalse(twentOne);
     }    
