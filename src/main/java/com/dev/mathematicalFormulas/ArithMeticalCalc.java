@@ -1,5 +1,6 @@
 package com.dev.mathematicalFormulas;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ArithmeticalCalc {
@@ -49,5 +50,15 @@ public class ArithmeticalCalc {
             
         }
         return Double.NaN;
+    }
+
+    public static Double geoM(List<Double> numbers) {
+        double result = 1.0;
+        for(double number:numbers){
+            double root = root(numbers.size(),number);
+            if(Double.NaN == root) return Double.NaN;
+            result *= root;
+        }
+        return result;
     }
 }

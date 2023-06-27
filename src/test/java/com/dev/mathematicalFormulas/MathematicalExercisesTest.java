@@ -1,5 +1,6 @@
 package com.dev.mathematicalFormulas;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.util.Arrays;
@@ -34,6 +35,11 @@ public class MathematicalExercisesTest {
     public void average(){
         Double result = ArithmeticalCalc.avg(Arrays.asList(4.0, 8.0));
         assertTrue(result.equals(6.0));
+    }
+    @Test
+    public void geometricMean(){
+        Double result = ArithmeticalCalc.geoM(Arrays.asList(1.0,8.0,27.0));
+        assertEquals(result,(Double)6.0);
     }
     
 }
