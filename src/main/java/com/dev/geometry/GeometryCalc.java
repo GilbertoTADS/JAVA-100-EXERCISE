@@ -6,4 +6,8 @@ public class GeometryCalc {
         return 2 * Math.PI * radius;
     }
 
+    public static Double circleArea(double radius) {
+        return (Math.PI*(radius*radius));
+    }
+
 }
