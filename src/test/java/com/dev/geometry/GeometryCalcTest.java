@@ -9,7 +9,7 @@ public class GeometryCalcTest {
     @Test
     public void circlePerimeterByRadius(){
         Double perimeter = GeometryCalc.circlePerimeter(1.0);
-        assertEquals((Double)6.28, perimeter);
+        assertEquals((Double)6.283185307179586, perimeter);
     }
     
 }
