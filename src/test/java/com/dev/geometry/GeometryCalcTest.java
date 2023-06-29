@@ -11,5 +11,10 @@ public class GeometryCalcTest {
         Double perimeter = GeometryCalc.circlePerimeter(1.0);
         assertEquals((Double)6.283185307179586, perimeter);
     }
+    @Test
+    public void circleAreaByRadius(){
+        Double area = GeometryCalc.circleArea(1.0);
+        assertEquals((Double)0.0, area);
+    }
     
 }
