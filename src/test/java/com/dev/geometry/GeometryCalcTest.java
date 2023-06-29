@@ -13,8 +13,8 @@ public class GeometryCalcTest {
     }
     @Test
     public void circleAreaByRadius(){
-        Double area = GeometryCalc.circleArea(1.0);
-        assertEquals((Double)0.0, area);
+        Double area = GeometryCalc.circleArea(2.0);
+        assertEquals((Double)12.566370614359172, area);
     }
     
 }
