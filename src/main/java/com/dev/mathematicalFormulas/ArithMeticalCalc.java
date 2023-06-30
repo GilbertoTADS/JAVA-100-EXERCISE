@@ -61,4 +61,8 @@ public class ArithmeticalCalc {
         }
         return result;
     }
+
+    public static boolean isPair(double number) {
+        return number%2 == 0;
+    }
 }
