@@ -19,7 +19,7 @@ public class GeometryCalcTest {
     @Test
     public void rectangleAreaAndPerimeter(){
         Double area = GeometryCalc.rectangleArea(12.0,5.0);
-        Double perimeter = GeometryCalc.rectangleArea(2.0,18);
+        Double perimeter = GeometryCalc.rectanglePerimeter(2.0,18);
 
         assertEquals((Double)60.0,area);
         assertEquals((Double)60.0,perimeter);
