@@ -10,4 +10,12 @@ public class GeometryCalc {
         return (Math.PI*(radius*radius));
     }
 
+    public static Double rectangleArea(double width, double height) {
+        return height*width;
+    }
+
+    public static Double rectanglePerimeter(double width, int height) {
+        return (2*(width+height));
+    }
+
 }

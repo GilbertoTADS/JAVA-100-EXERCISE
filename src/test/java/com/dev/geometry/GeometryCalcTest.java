@@ -22,7 +22,7 @@ public class GeometryCalcTest {
         Double perimeter = GeometryCalc.rectanglePerimeter(2.0,18);
 
         assertEquals((Double)60.0,area);
-        assertEquals((Double)60.0,perimeter);
+        assertEquals((Double)40.0,perimeter);
     }
     
 }
